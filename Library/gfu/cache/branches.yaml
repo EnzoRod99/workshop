@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-11-03T10:40:20.005+01:00
+  lastUpdatedAtString: 2020-11-03T10:42:26.614+01:00
   initializedAtString: 2020-11-03T10:40:19.995+01:00
   localBranches: []
-  remoteBranches: []
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/EnzoRod99/workshop
@@ -29,9 +31,18 @@ MonoBehaviour:
     keys: []
     values: []
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - main
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/EnzoRod99/workshop
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
